@@ -8,7 +8,7 @@ use Facebook\WebDriver\WebDriverKeys;
 class KorbenTest extends PHPUnit_Framework_TestCase{
 
 	protected $webDriver;
-	protected $url = 'https://korben.info'; 
+	protected $url = 'https://url.test'; 
 
 	public function setUp(){
 		$host = 'http://localhost:4444/wd/hub'; // this is the default

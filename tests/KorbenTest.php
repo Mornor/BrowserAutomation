@@ -20,7 +20,7 @@ class KorbenTest extends PHPUnit_Framework_TestCase{
 		$this->webDriver->close(); 
 	}*/
 
-	public function testGoogleSearch(){
+	public function testKorbenSearch(){
 		// Get the url defined in vars
 		$this->webDriver->get($this->url);
 

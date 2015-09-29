@@ -29,9 +29,13 @@ class LocalhostTest extends PHPUnit_Framework_TestCase{
 	}
 
 	public function fillAndSubmitForm(array $inputs){		
+		// Fill the form
 		foreach ($inputs as $input => $value) {
 			$this->webDriver->findElement(WebDriverBy::name($input))->sendKeys($value);
 		}
+
+		// Test if the value are correct
+		$this->assertTrue(is_numeric($this->webDriver->findElement(WebDriverBy::name('creditCard'))->getAttribute('value')) ); 
 
 		$this->webDriver->findElement(WebDriverBy::cssSelector('body > form:nth-child(1) > input:nth-child(21)'))->click(); 
 

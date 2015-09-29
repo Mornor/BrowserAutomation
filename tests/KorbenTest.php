@@ -12,7 +12,6 @@ class KorbenTest extends PHPUnit_Framework_TestCase{
 
 	public function setUp(){
 		$host = 'http://localhost:4444/wd/hub'; // this is the default
-		$capabilities = DesiredCapabilities::firefox();
 		$this->webDriver = RemoteWebDriver::create($host, DesiredCapabilities::firefox()); 
 	}
 

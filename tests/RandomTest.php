@@ -5,7 +5,7 @@ use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\WebDriverBy;
 use Facebook\WebDriver\WebDriverKeys;
 
-class KorbenTest extends PHPUnit_Framework_TestCase{
+class RandomTest extends PHPUnit_Framework_TestCase{
 
 	protected $webDriver;
 	protected $url = 'https://url.test'; 

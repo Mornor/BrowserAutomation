@@ -44,7 +44,7 @@ class LocalhostTest extends PHPUnit_Framework_TestCase{
 				'password' => 'password', 
 				'address' 	=> 'La cote', 
 				'creditCard' => '45698847', 
-				'telNumber' => '0032498175903'
+				'telNumber' => '4556'
 			]
 		]; 
 
